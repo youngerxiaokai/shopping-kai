@@ -6,8 +6,8 @@
 
 <script>
 export default {
-    name: 'Recommend'
-}
+  name: 'Recommend',
+};
 </script>
 
 <style scoped lang='scss'>

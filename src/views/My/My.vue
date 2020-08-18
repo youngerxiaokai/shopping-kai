@@ -1,13 +1,13 @@
 <template>
     <div class="My">
-        My
+        My2
     </div>
 </template>
 
 <script>
 export default {
-    name: 'My'
-}
+  name: 'My',
+};
 </script>
 
 <style scoped lang='scss'>

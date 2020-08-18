@@ -1,8 +1,17 @@
 import Vue from 'vue';
-import App from './App.vue';
-import router from './router';
 // 引入适配
 import './libs/px2rem/hotcss';
+// 引入vantage
+import Vant from 'vant';
+import 'vant/lib/index.css';
+// 引入ly-tab
+import LyTab from 'ly-tab';
+import App from './App.vue';
+import router from './router';
+
+Vue.use(LyTab);
+
+Vue.use(Vant);
 
 Vue.config.productionTip = false;
 

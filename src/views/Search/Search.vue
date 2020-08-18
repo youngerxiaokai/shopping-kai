@@ -1,13 +1,13 @@
 <template>
     <div class="Search">
-        Search1
+        Search12
     </div>
 </template>
 
 <script>
 export default {
-  name: 'Search'
-}
+  name: 'Search',
+};
 </script>
 
 <style scoped lang='scss'>
