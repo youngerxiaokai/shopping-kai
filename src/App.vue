@@ -5,6 +5,7 @@
   </div>
 </template>
 <script>
+
 import './assets/common.css';
 import TabBar from './components/TabBar/TabBar.vue';
 

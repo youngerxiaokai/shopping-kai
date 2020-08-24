@@ -6,7 +6,7 @@ import '../views/Search/Search.vue';
 import '../views/Chat/Chat.vue';
 import '../views/My/My.vue';
 
-import '../views/Home/Children/Hot.vue';
+import '../views/Home/Children/Hot/Hot.vue';
 import '../views/Home/Children/Baihuo.vue';
 import '../views/Home/Children/Cloth.vue';
 import '../views/Home/Children/Mother.vue';
@@ -23,7 +23,7 @@ const routes = [
       {
         path: 'hot',
         name: 'Hot',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Home/Children/Hot.vue'),
+        component: () => import(/* webpackChunkName: "about" */ '../views/Home/Children/Hot/Hot.vue'),
       },
       {
         path: 'Baihuo',

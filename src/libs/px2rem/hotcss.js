@@ -1,6 +1,5 @@
-(function( window , document ){
-
-	'use strict';
+(function (window, document) {
+  'use strict';
 
 	//给hotcss开辟个命名空间，别问我为什么，我要给你准备你会用到的方法，免得用到的时候还要自己写。
 	var hotcss = {};
@@ -17,8 +16,8 @@
         dpr = dpr >= 3 ? 3 : ( dpr >=2 ? 2 : 1 );
 
         //允许通过自定义name为hotcss的meta头，通过initial-dpr来强制定义页面缩放
-        if (hotcssEl) {
-            var hotcssCon = hotcssEl.getAttribute('content');
+    if (hotcssEl) {
+      var hotcssCon = hotcssEl.getAttribute('content');
             if (hotcssCon) {
                 var initialDprMatch = hotcssCon.match(/initial\-dpr=([\d\.]+)/);
                 if (initialDprMatch) {
